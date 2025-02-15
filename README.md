@@ -8,4 +8,4 @@
 -Désavantages :
 Aucun.
 
-Note : je retirerais ce mod de mon repo quand Akasdis l'aura uploadé sur son site.
+Note : je retirerais ce mod de mon repo quand Akadis l'aura uploadé sur son site.
