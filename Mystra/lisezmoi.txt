@@ -1,0 +1,39 @@
+#############################
+#  Mod Mystra par Zakinster #
+#############################
+
+# Installation #
+
+Executez le Fichier Mystra_Installation.exe,
+
+spécifiez le chemin du dossier d'installation de Baldur's Gate II si vous l'avez modifié
+
+Par défaut :  C:\Program Files\Black Isle\BGII - SoA
+
+Cliquez sur "Installer"
+
+Saisissez Y lorsque qu'il vous demande confirmation et appuyez sur Entrer, voila le mod est installé !
+
+
+# Désinstallation #
+
+Executez le fichier Uninstall_Mystra.bat se trouvant dans le repertoire Mystra
+
+Par défaut :  C:\Program Files\Black Isle\BGII - SoA\Mystra\Uninstall_Mystra.bat
+
+
+# Compatibilité #
+
+Ce mod a été prévu pour Baldur's Gate II SoA ET ToB.
+
+En cas de problème, contactez zakinster@zakinster.com
+
+
+
+(C) Realm fantasy 2005 - by Zakinster
+
+
+
+
+
+

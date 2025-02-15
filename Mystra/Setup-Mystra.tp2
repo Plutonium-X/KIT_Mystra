@@ -1,0 +1,72 @@
+BACKUP ~Mystra/Backup~ // Pour que WeiDU puisse désinstaller
+AUTHOR ~zakinster@zakinster.com~
+	
+LANGUAGE ~Francais~	~French~
+	~Mystra/tra/French/Setup.tra~
+
+LANGUAGE ~Français pour les EE~	~FrenchEE~
+	~Mystra/tra/FrenchEE/Setup.tra~
+	
+
+BEGIN @0
+// nom interne du kit
+INCLUDE ~Mystra/fl#add_kit_ee.tpa~
+
+ADD_KIT ~MYSTRA~
+
+// ajouté à CLASWEAP.2da
+~MYSTRA                0           0           1           1           0           1           0           0~
+
+// ajouté à to WEAPPROF.2da
+~MYSTRA 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+// ajouté à ABCLASRQ.2da
+~MYSTRA                0       0       0       0       9       0~
+
+// ajouté à ABCLSMOD.2da
+~MYSTRA                0       0       0       0       0       0~
+
+// ajouté à ABDCDSRQ.2da
+~MYSTRA                0       0       0       0       17      0~
+
+// ajouté à ABDCSCRQ.2da
+~MYSTRA                0       0       0       0       15      0~
+
+// ajouté à ALIGNMNT.2da
+~MYSTRA                0       1       0       1       0       0       0       0       0~
+
+// ajouté à DUALCLAS.2da
+~MYSTRA                1       0       1       1       0       1~
+
+// lien vers votre fichier 2da de type CLAB
+~Mystra/CLABMyst.2da~
+
+// races et classes de PJ autorisées à utiliser ce kit, provenant de KITTABLE.2da
+~K_C_D K_C_E K_C_G K_C_H K_C_HE K_C_HL K_C_HO~
+
+// drapeaux d'utilisabilité, ajouté à la fin de KITLIST.2da
+~0x00004000     3~
+
+// Table de CHN à utiliser. Voir LUABBR.2da
+~Cl0~
+
+// Liste de l'équipement du PJ au début de ToB ajouté à 25STWEAP.2da
+ ~CHAN09 * HELM07 BAG20 RING06 RING31 * BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN4,2 POTN14,5 HAM07 SW1H27 STAF08~
+
+// Nom du kit en lettres minuscules et mixtes, et description du kit, ajoutés à KITLIST.2da
+SAY @1
+SAY @2
+SAY @3
+LAF fl#add_kit_ee	STR_VAR kit_name = MYSTRA	END
+
+
+COPY ~Mystra/MYSTRA.itm~ ~override~
+
+SAY NAME2 @4
+
+SAY DESC @5
+
+
+COPY ~Mystra/MYSTRA.spl~ ~override~
+     ~Mystra/MYSTRA1.spl~ ~override~
+     ~Mystra/MYSTRA2.spl~ ~override~
