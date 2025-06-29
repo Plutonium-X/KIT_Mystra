@@ -57,7 +57,9 @@ ADD_KIT ~MYSTRA~
 SAY @1
 SAY @2
 SAY @3
+ACTION_IF GAME_IS ~IWDEE BGEE BG2EE EET~ THEN BEGIN
 LAF fl#add_kit_ee	STR_VAR kit_name = MYSTRA	END
+END
 
 
 COPY ~Mystra/MYSTRA.itm~ ~override~
