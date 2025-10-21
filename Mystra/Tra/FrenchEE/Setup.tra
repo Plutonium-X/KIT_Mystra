@@ -1,12 +1,15 @@
 @0 = ~Installation du Kit~
 @1 = ~prêtre de mystra~
 @2 = ~Prêtre de Mystra~
-@3 = ~PRETRE DE MYSTRA: disciple de la déesse de la Magie et des possibilités. Gardienne de la toile magique qui englobe les royaumes, Mystra est respecté par tout les lanceurs de sort, ce qui fait d'elle l'une des plus puissantes divinités des Royaumes.
+@3 = ~PRETRE DE MYSTRA: Disciple de la Déesse de la Magie et des possibilités. Gardienne de la toile magique qui englobe les royaumes, Mystra est respectée par tous les lanceurs de sort, ce qui fait d'elle l'une des plus puissantes divinités des Royaumes.
 
 Avantages :
-- Gain de 1 % de Résistance magique par niveau
-- Lame noire du désastre une fois par jour tout les 10 niveaux à partir du niveau 20.
-- Déviation de sorts une fois par jour tout les 5 niveaux à partir du niveau 10.~
+- Gain de 1 % de Résistance à la magie par niveau
+- Lame noire du désastre une fois par jour tous les 10 niveaux à partir du niveau 20
+- Déviation de sorts une fois par jour tous les 5 niveaux à partir du niveau 10
+
+Désavantage :
+- Doit être d'alignement Neutre bon ou Loyal neutre.~
 
 @4 = ~La Foi de Mystra~
 
@@ -14,9 +17,9 @@ Avantages :
 
 Seuls les plus nobles et les plus fidèles serviteurs de la Déesse de la Magie reçoivent cette amulette sacrée.
 
-PARAMETRES
+PARAMÈTRES :
 
 Capacités d'équipement :
-Mémorisation de 1 sort additionnel du 6ème et du 7ème niveau.
-+10 % de Résistance magique.
-Intelligence +1.~
+- Intelligence : +1
+- Résistance à la magie : +10 %
+- Permet de mémoriser un sort divin supplémentaire de 6ème et 7ème niveau~
