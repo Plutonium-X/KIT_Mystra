@@ -7,7 +7,7 @@
 
 -Désavantages :
 Aucun.
----------------------------------------------
+
 # Priest of Mystra Kit
 
 -Benefits:
