@@ -7,3 +7,13 @@
 
 -Désavantages :
 Aucun.
+---------------------------------------------
+# Priest of Mystra Kit
+
+-Benefits:
+- 1% Magic Resistance per level.
+- Starting at level 10 and every 5 levels thereafter: Spell Deflection.
+- Starting at level 20 and every 10 levels thereafter: Black Blade of Disaster.
+
+-Drawbacks:
+None.
