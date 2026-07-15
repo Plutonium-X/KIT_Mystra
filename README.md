@@ -11,7 +11,7 @@ Désavantages :
 ---------------------------------------------------
 
 
-# Priest of Mystra Kit
+# Priest of Mystra Kit (No English translation is included in the mod)
 
 Benefits:
 - 1% Magic Resistance per level.
